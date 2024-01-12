@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Image</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <style>
     .banner {
@@ -159,13 +160,13 @@
 
     <!-- Container Character -->
     <div class="container">
-        <h1 class="text-center">Character</h1>
-        <p class="text-center d-sm-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
+        <h1 class="text-center" data-aos="flip-right" data-aos-duration="2000">Character</h1>
+        <p class="text-center d-sm-none d-md-block" data-aos="flip-left" data-aos-duration="2000">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
             vero nam! Facilis.</p>
         <div class="container mt-3">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-2">
-                    <div class="card">
+                    <div class="card"  data-aos="fade-down-right" data-aos-duration="2000">
                         <div class="card-header text-center">Name Character</div>
                         <div class="card-body">
                             <div class="row">
@@ -191,7 +192,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-2">
-                    <div class="card">
+                    <div class="card " data-aos="fade-down-left" data-aos-duration="2000">
                         <div class="card-header text-center">Name Character</div>
                         <div class="card-body">
                             <div class="row">
@@ -216,7 +217,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-2">
-                    <div class="card">
+                    <div class="card " data-aos="fade-up-right" data-aos-duration="2000">
                         <div class="card-header text-center">Name Character</div>
                         <div class="card-body">
                             <div class="row">
@@ -241,7 +242,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-2">
-                    <div class="card">
+                    <div class="card"  data-aos="fade-up-left" data-aos-duration="2000">
                         <div class="card-header text-center">Name Character</div>
                         <div class="card-body">
                             <div class="row">
@@ -440,6 +441,10 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
